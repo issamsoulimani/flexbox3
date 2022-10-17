@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #fff;
+}
+.head{
+	background-color: blue;
+}
+.left{
+	background-color: pink;
+	flex-grow: 2;
+}
+.center{
+	background-color: grey;
+	flex-grow: 6;
+}
+.right{
+	background-color: orange;
+	flex-grow: 2;
+}
+.foot{
+	background-color: crimson;
+}
+.head,
+.left,
+.center,
+.right,
+.foot,
+.AAA,
+.BBB,
+.CCC,
+.DDD,
+.EEE,
+.FFF{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.head,
+.foot{
+	height: 10vh;
+}
+.middle{
+	display: flex;
+	height: 30vh;
+}
+.head2,
+.head3
+{
+	display: flex;
+	height: 25vh;
+}
+.AAA{
+	background-color: red;
+	flex-grow: 5;
+}
+.BBB{
+	background-color: green;
+	flex-grow: 5;
+}
+.CCC{
+	background-color: black;
+	flex-grow: 5;
+}
+.DDD{
+	background-color: brown;
+	flex-grow: 5;
+}
+.EEE{
+	background-color: navy;
+	flex-grow: 5;
+}
+.FFF{
+	background-color: magenta;
+	flex-grow: 5;
+}
+
+@media(max-width: 767px)
+{
+	.middle{
+		display: flex;
+		flex-direction: column;
+	}
+}
